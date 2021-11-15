@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, intial-scale=1">
+    <title> Parth's Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!--<script>
+        document.querySelectorAll('project-button').forEach(button => {
+            button.addEventListener('click', () => {            
+                button.classList.toggle('project-button--active');
+            });
+        });
+    </script> -->
+
+    
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-caret-square-up"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Parth</div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
+                <li><a href="#experience" class="menu-btn">Experience</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- Home section starts below -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"> Hi there! My name is</div>
+                <div class="text-2"> Parth Patel</div>
+                <div class="text-3"> And I'm a  <span class="typing"></span> </div>
+                <a href="#contact"> Contact me <i class="fas fa-chevron-circle-right"></i></a>
+
+            </div>
+
+
+            
+            
+        </div>
+
+        <div class="effect-wrap">
+            <div class="effect effect-1">
+                <i class="fas fa-code"></i>
+            </div>
+
+            <div class="effect effect-2">
+                <i class="fas fa-database"></i>
+            </div>
+
+            <div class="effect effect-3">
+                <i class="fas fa-chart-line"></i>
+            </div>
+
+            <div class="effect effect-3">
+                <i class="fas fa-chart-line"></i>
+            </div>
+
+            <div class="effect effect-4">
+                <i class="fas fa-robot"></i>
+            </div>
+
+            <div class="effect effect-5">
+                <i class="fab fa-python"></i>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About section starts-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title"> About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="Images/pic1.jpg" alt="">
+                </div>
+
+                <div class="column right">
+                    <div class="text"> My name is Parth and I'm a </div>
+                    <span class="typing-small"></span>
+                    <p> I do math things. I do code things. I break things. I learn things. I do these things because I'm deeply passionate in creating solutions through math, 
+                        data, knowledge and creative thinking. I consider myself a "forever student", always eager to grow my expertise in data science, machine learning,
+                        and software development through any means available. Applying what I learn on real-life problems is how I sharpen my skill sets.
+                        Currently, I'm looking for an internship position for Winter-Summer 2022.   </p>
+                    <a download="Resume-Parth Patel.pdf" href="Resume - Parth Patel.pdf" target="_blank" class="resume-btn"> Download Resume 
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education section starts-->
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="title">Education</h2>
+            <div class="education-content">
+                <div class="column left">
+                    <div class="text">I'm in my 4th year at University of Toronto St.George majoring in <span class="typing-major"></span></div>
+                    <p>I feel proud to be a student at the <span>#1</span> ranked University of Canada, learning from
+                        impecabble, award-winning teachers. Here, I have completed courses in Linear Algebra, Calculus, Number theory,
+                        Computer Science, Machine Learning, Regression, Probability, Survey & Sampling and many more. 
+                        Expecting to graduate in April 2022
+                    </p>
+                </div>
+
+                <div class="column right">
+                    <img src="Images/schoolLogo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Experience section starts-->
+    <section class="experience" id="experience">
+        <div class="max-width">
+            <h2 class="title">Experience</h2>
+            <h3 class="subtitle-courses">Courses</h3>
+            <div class="exp-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-robot"></i>
+                        <div class="text">Machine Learning by Stanford</div>
+                        <p>Learned ML fundamentals such as gradient descent, multivariate regression, multiclass 
+                            classification, neural networks, SVM’s, PCA, and solving overfitting problems.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">IBM Data Science Professional Certification</div>
+                        <p>Developed skills in creating SQL queries for databases, data visualization, Machine learning in 
+                            Python, tools, and techniques for data analysis including Pandas, Numpy and MySQL.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="text">HTML, CSS & JavaScript for Web Developers</div>
+                        <p>Learned HTML5 basics, CSS, and Javascript along with techniques such as Text styling, box model layout, 
+                            responsive design, and twitter bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <h3 class="subtitle-project">Projects</h3>
+            <div class="project-content">
+                <div class="cards">
+                    <div class="card"> <!-- Card #1 -->
+                        <div class="img">
+                            <img src="Images/neighborhood.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Neighborhood Business Classification Model</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-building"></i>
+                        </div>
+
+                        <div class="more-text">
+                            <div style="padding: 10px 0">Built a K-means clustering algorithm using Pandas and
+                                Scikit-Learn to run on data, scraped from 3+ webpages using Beautiful Soup, and querying through FourSquare APIs of all businesses for
+                                140 neighborhoods in Toronto.</div>
+                            <div style="padding: 10px 0">Created data visualizations by transforming 6 tables and visual frequency graphs revealing 
+                                clusters of neighborhoods with similar business environments.  
+                            </div>
+                            <div style="padding: 10px 0">
+                                Developed tables and graps in Tableau for effective communication for the non-technical audience.
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <div class="card"> <!-- Card #2 -->
+                        <div class="img">
+                            <img src="Images/employee.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Employee Payroll Management System</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="more-text">
+                            <div style="padding: 10px 0">Excercised object oriented programming (OOP) fundamentals while creating employee, payroll, and management classes.
+                            </div>
+                            <div style="padding: 10px 0">Designed an effecient database framework on MySQl that stored employee payroll, check-in/check-out status and 
+                                employee work history within data size limitations.
+                            </div>
+                            <div style="padding: 10px 0">Wrote various complex SQL queries to communicate with MySQL database in Python.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="card"> <!-- Card #3 -->
+                        <div class="img">
+                            <img src="Images/digits.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Number Recognition using Artificial Neural Network</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+    
+                        <div class="more-text">
+                            <div style="padding: 10px 0"> Created and cleaned +100 raw images of handwritten digits from 0-9 in Photoshop with distinct
+                                handwriting to ensure unbiasedness and versatility in data.</div>
+                            <div style="padding: 10px 0">Implemented and trained an artificial neural network model using Forward propagation and 
+                                Backward propagation in Octave with Regularized Gradient Descent on images for 
+                                classification, resulting in 95.7% testing accuracy
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="card"> <!-- Card #4 -->
+                        <div class="img">
+                            <img src="Images/stitch.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Cross-stitch Image Pattern Generator</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+    
+                        <div class="more-text">
+                            <div style="padding: 10px 0">Collected colorful image data as input for an implemented k-means 
+                                algorithm that clusters similar colors together to reduce or maintain image quality.</div>
+                            <div style="padding: 10px 0">Upon clustering, appropriate thread colors were chosen using
+                                DMC package and a custom pattern
+                                is created according to user selection.</div>
+                            <div style="padding: 10px 0">The cross-stitch pattern design of the provided image is4 displayed along with options to apply custom changes via user interface.</div>
+                        </div>
+                    </div>
+
+                    <div class="card"> <!-- Card #5 -->
+                        <div class="img">
+                            <img src="Images/lasso.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Logistic Lasso Prediction Algorithm Implementation</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+    
+                        <div class="more-text">
+                            <div style="padding: 10px 0">Implemented a logistic lasso algorithm in R that can take numerical
+                                relational database with a high capacity of feature variables and one predictor.</div>
+                            <div style="padding: 10px 0">The algorithm displayed accuracy difference less than 0.01% when competing with 
+                                the built in logistic lasso algorithm in R.</div>
+                            <div style="padding: 10px 0">Also made it available to auto-tune lambda parameter that maximizes F1 score and accuracy,
+                                resulting into providing the best predictions.</div>
+                            
+
+
+                        </div>
+                    </div>
+
+                    <div class="card"> <!-- Card #6 -->
+                        <div class="img">
+                            <img src="Images/books.jpg" alt="">
+                        </div>
+                        <div class="text"> <h2>Amazon Books Customer Review Classification</h2></div>
+                        <div class="more-btn">
+                            <i class="fas fa-book"></i>
+                        </div>
+    
+                        <div class="more-text">
+                            <div style="padding: 10px 0">Performed ETL process using SQL and Pandas on 11,000+ instances of unstructured eCommerce 
+                                data by extracting text-based key-value data from 5 JSON files, cleaning and transforming to 
+                                usable data for natural language processing technique, Bag-of-words.</div>
+                            <div style="padding: 10px 0">Developed and compared machine learning models such as SVM, Naïve Bayes, Decision Tree,
+                                and logistic regression using Scikit-Learn, with parameter and data tuning. Testing accuracy 
+                                with F1 Scores of 86-88%. Concluded logistic regression to have the most optimal results.
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Skills section start-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Technical skills</div>
+                    <p>I've learned and honed these skills through my numerous unique projects, variety of classroom 
+                        assignments, and peer code reviews. I excercise these skills in fields like data analysis, machine learning,
+                        deep learning, software development, data visualization, and web-development.
+                    </p>
+                </div>
+
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>R</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line R"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line MySQL"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Tableau</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line tableau"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Tensorflow</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line tensorflow"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>SAS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line sas"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Sk-learn</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line sk-learn"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line javascript"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section starts-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Reach me here!</div>
+                    <p>If you would like to collaborate with me on projects, have work opportunites I would be a good fit for, or just want to say Hello! please
+                        feel free to reach out  <i class="fas fa-smile"></i> </p>
+                    
+                </div>
+
+                <div class="column right">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Parth Patel</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Toronto, Ontario</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">parthsuketu.patel@mail.utoronto.ca</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="info">
+                                <div class="head">LinkedIn</div>
+                                <div class="sub-title"><a href="https://www.linkedin.com/in/parth-patel-uoft/" target="_blank">
+                                    www.linkedin.com/in/parth-patel-uoft</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+<!-- Footer section start-->
+
+<footer>
+    <span> Created by <a href="#">Parth Patel </a> <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+</footer>
+
+
+
+
+
+</html>
+
